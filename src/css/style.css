@@ -22,13 +22,13 @@
   padding: 0;
 }
 .count-enter {
-  background: #f00;
+  background: #fff;
   transition: 0.5s;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
 }
 .count-enter.count-enter-active {
-  background: #ff0;
+  background: #fff;
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
@@ -42,9 +42,9 @@
   bottom: 0;
 }
 .count-exit.count-exit-active {
-  background: #008000;
-  -webkit-transform: translateY(-100%) scale(3);
-          transform: translateY(-100%) scale(3);
+  background: #fff;
+  -webkit-transform: translateY(-100%) scale(1.5);
+          transform: translateY(-100%) scale(1.5);
 }
 @font-face {
   font-family: "haymakerregular";

@@ -10,6 +10,7 @@
     "@reach/router": "^1.2.1",
     "autoprefixer-stylus": "0.14.0",
     "firebase": "^5.5.9",
+    "prop-types": "^15.6.2",
     "re-base": "^4.0.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",

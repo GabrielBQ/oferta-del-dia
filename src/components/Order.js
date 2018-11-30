@@ -1,8 +1,15 @@
 import React from "react";
 import { formatPrice } from "../helpers";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
+import PropTypes from "prop-types";
 
 class Order extends React.Component {
+  static propTypes = {
+    removeFromOrder: PropTypes.func.isRequired,
+    fishes: PropTypes.object.isRequired,
+    order: PropTypes.object.isRequired,
+  };
+
   handleRemove = event => {
     // NOTE: There's got to be a better way to do 👇
     const orderKey = event.target.parentNode.attributes.orderkey.value;
